@@ -1,0 +1,82 @@
+.awesome {
+    padding-top: 50px;
+    width: 1170px;
+    height: 665px;
+    margin:0 auto
+}
+
+.awesome__text {
+    height: 211px;
+    margin-bottom: 70px;
+}
+
+.awesome__text h2 {
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.text__separator {
+
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+.awesome__text h5 {
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #86878B;
+    
+}
+
+.awesome__about {
+    width: 1170px;
+    height: 383px;
+    display: flex;
+}
+
+.awesome__about_tab {
+    width: 463px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.awesome__about_tab h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #000000;
+    height: 100px;
+}
+
+.awesome__about_tab h5 {
+    height: 105px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
