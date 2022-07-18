@@ -1,0 +1,37 @@
+h2 {
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.separator {
+
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+
+
+h5 {
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #86878B;
+    
+}

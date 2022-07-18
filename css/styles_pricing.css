@@ -1,0 +1,98 @@
+.pricing {
+    padding-top: 58px;
+    width: 1170px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.pricing__levels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__tab {
+    width: 370px;
+}
+
+.pricing__tab_name {
+    height: 60px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.pricing__tab_price {
+    height: 100px;
+    font-family: 'Raleway';
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pricing__tab_text {
+    height: 50px;
+    font-family: 'Raleway';
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing__tab_info {
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #86878B;
+}
+
+#basic:hover
+{
+    transform: scale(1.1);
+    outline:solid gray;
+    
+}
+#optima:hover
+{
+    transform: scale(1.1);
+    outline:solid green;
+}
+#pro:hover
+{
+    transform: scale(1.1);
+    outline:solid black;
+}
