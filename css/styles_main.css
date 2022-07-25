@@ -1,40 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.header {
-    width: 100%;
-    height: 75px;
-    background-color: black;
-    display: flex;
-}
-
-.header__logo {
-    width: 80px;
-    height: 75px;
-    margin-left: 115px;
-    margin-right: 850px;
-}
-
-.header__nav {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    display: flex;
-    text-transform: capitalize;
-    color: white;
-    height: 100%;
-}
-
-.header__nav li {
-    padding: 25px 50px;
-    height: 100%;
-}
-
 .main {
     width: 100%;
     height: 100vh;
@@ -53,6 +16,7 @@
     width: 63px;
     height: 55px;
 }
+
 .main__separator {
     border: 1px solid white;
     width: 170px;
@@ -74,10 +38,7 @@
     color: #FFFFFF;
     margin-top: 73px;
     margin-left: 170px;
-
 }
-
-
 
 .main h5 {
     width: 270px;
@@ -113,9 +74,16 @@
     cursor: pointer;
     display: flex;
 }
+.line {
+    width: 370px;
+    height: 0px;
+    border: 1px solid #BDBDBD;
+    margin-left: 50px;
+    margin-bottom: 33px;
+}
 
 .main__reg-form {
-    position: relative;
+    
     width: 470px;
     height: 450px;
     margin-left: 1100px;
@@ -157,13 +125,6 @@
     margin-top: 45px;
 }
 
-.line {
-    width: 370px;
-    height: 0px;
-    border: 1px solid #BDBDBD;
-    margin-left: 50px;
-    margin-bottom: 33px;
-}
 
 .main__reg-form_button {
     width: 470px;
@@ -184,21 +145,21 @@
 }
 
 .social {
-    width: 100%;
+    width: 1170px;
     height: 140px;
     background: #F8EFEF;
     display: flex; 
-    margin-bottom:109px;
+    margin:0 auto;
+    padding-bottom: 109px;
 }
 
 .social__text {
     width: 470px;
     height: 120px;
-    margin-right: 50px;
-    margin-left:80px;
 }
 
 .social__text h4 {
+    width: 470px;
     height: 60px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -214,6 +175,7 @@
 }
 
 .social__text h5 {
+    height: 21px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -228,7 +190,6 @@
     width: 70px;
     height: 70px;
     padding-top: 35px;
-    padding-left: 35px;
     padding-right: 35px;
     margin:0 auto;
 }

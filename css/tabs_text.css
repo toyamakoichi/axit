@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h2 {
     height: 150px;
     font-family: 'Raleway';
@@ -20,8 +24,6 @@ h2 {
     margin-bottom: 40px;
 }
 
-
-
 h5 {
     height: 21px;
     font-family: 'Raleway';
@@ -33,5 +35,5 @@ h5 {
     align-items: center;
     justify-content: center;
     color: #86878B;
-    
 }
+

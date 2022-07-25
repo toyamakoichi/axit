@@ -83,16 +83,16 @@
 #basic:hover
 {
     transform: scale(1.1);
-    outline:solid gray;
+    
     
 }
 #optima:hover
 {
     transform: scale(1.1);
-    outline:solid green;
+    
 }
 #pro:hover
 {
     transform: scale(1.1);
-    outline:solid black;
+   
 }

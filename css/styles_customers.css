@@ -3,6 +3,7 @@
     height: 630px;
     padding-top: 50px;
     margin: 0 auto;
+    margin-bottom:64px;
 }
 
 .customers__space {
@@ -19,7 +20,7 @@
     height: 180px;
     background: white;
     border-radius: 10px;
-    border: 1px solid black;
+    background-color: #d7d8db;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -37,8 +38,7 @@
     width: 30px;
     height: 30px;
     background: white;
-    border-top: 1px solid black;
-    border-left:1px solid black ;
+    background-color: #d7d8db;
     transform: rotate(-135deg);
     margin-top: -15.8px;
     margin-left: 70px;
