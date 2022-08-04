@@ -1,6 +1,6 @@
 .pricing {
     padding-top: 58px;
-    width: 1170px;
+    max-width: 1170px;
     height: 900px;
     margin: 0 auto;
 }
@@ -95,4 +95,16 @@
 {
     transform: scale(1.1);
    
+}
+@media only screen and (max-width:900px)
+{
+    .pricing {
+       max-width: 320px;
+        height: 1480px;
+    }
+    
+    .pricing__levels
+    {
+        flex-direction: column;
+    }
 }

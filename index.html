@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="./css/styles_footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-    <div class="header">
+    <div class="header__background">
+        <div class="header">
         <span><img class="header__logo" src="images/favicon.png"></span>
         <div class="header__nav">
             <a href="#features">Features</a>
@@ -30,25 +31,35 @@
             <a href="#contact">Contact</a>
         </div>
     </div>
-    <div class="main">
-        <img class="main__logo_ax" src="images/AXIT.png">
-        <img class="main__logo_it" src="images/AXITit.png">
-        <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-        <div class="main__separator "></div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
-        <div class="main__button">Download</div>
-        <div class="main__reg-form">
-            <h4>Try Your <span style="color:#EC7979;">&#160;FREE&#160;</span> Trial Today</h4>
-            <input class="main__reg-form_input" type="text" placeholder="Name">
+    </div>
+    <div class="background">
+        <div class="axit">
+        <div class="axit__left">
+        <div class="axit__left__logo">
+        <img style="width:102px;" class="axit__left__image" src="images/AXIT.png">
+        <img style="width:63px;"  class="axit__left__image" src="images/AXITit.png">
+        </div>
+        <div class="axit__left__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
+        <div class="axit__left__separator"></div>
+        <div class="axit__left__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <button type="button" class="axit__left__button">Download</button>
+    </div>
+    <div class="axit__right">
+            <form>
+            <div class="axit__right__title">Try Your <span style="color:#EC7979;">&#160;FREE&#160;</span> Trial Today</div>
+            <input class="axit__right__input" type="text" placeholder="Name">
             <div class="line"></div>
-            <input class="main__reg-form_input" type="text" placeholder="Email">
+            <input style="margin-top:33px;" class="axit__right__input" type="text" placeholder="Email">
             <div class="line"></div>
-            <input class="main__reg-form_input" type="password" placeholder="Password">
+            <input  style="margin-top:33px;" class="axit__right__input" type="password" placeholder="Password">
             <div class="line"></div>
-            <div class="main__reg-form_button">Get started</div>
+            <button type="button" class="axit__right__button">Get started</button>
+            </form>
         </div>
     </div>
-    <div class="social">
+</div>
+<div class="social__background">  
+<div class="social">
         <div class="social__text">
             <h4>Social Media</h4>
             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h5>
@@ -61,12 +72,14 @@
         <img src="images/github.png">
         <img src="images/rss.png">
     </div>
+</div> 
     <div class="tabs">
         <div class="tabs__uppertab firstTab">TAB 1</div>
         <div class="tabs__uppertab">TAB 2</div>
         <div class="tabs__uppertab">TAB 3</div>
         <div class="tabs__uppertab filler"></div>
     </div>
+ 
     <div class="tabs__content">
         <div class="tabs__text">
             <h3>Tabs with soft transitioning effect.</h3>
@@ -77,7 +90,7 @@
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
                 bibendum laoreet.</h5>
-            <div class="tabs__button">Download</div>
+            <button class="tabs__button">Download</button>
         </div>
         <img class="tabs__picture" src="images/pic.png">
     </div>
@@ -237,7 +250,7 @@
 
         <h5 style="margin-bottom:89px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
     </div>
-    <div style="display:flex;">
+    <form style="display:flex;">
     <div style="margin-right:30px ;">
     <input class="contact__input " type="text" placeholder="Name">
     <div class="contact__line"></div>
@@ -250,9 +263,8 @@
     <textarea cols="76" rows="11" class="contact__textarea" type="text" placeholder="Message"></textarea>
     <div class="contact__line"></div>
 </div>
-</div>
-    <div class="contact__button">Send message</div>
-    
+</form>
+<div class="contact__button">Send message</div>
 </div>
 <div class="footer">
     <div class="footer__space">
@@ -268,5 +280,4 @@
     <p>© 2015 Axure Themes</p>
 </div>
 </body>
-
 </html>

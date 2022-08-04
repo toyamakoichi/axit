@@ -1,5 +1,5 @@
 .customers {
-    width: 1170px;
+    max-width: 1170px;
     height: 630px;
     padding-top: 50px;
     margin: 0 auto;

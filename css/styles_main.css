@@ -1,31 +1,46 @@
-.main {
+.background {
     width: 100%;
     height: 100vh;
     background: url(../images/bggray.png), url(../images/bg.png) no-repeat center;
     background-size: cover;
 }
-
-.main__logo_ax {
-    width: 102px;
-    height: 55px;
-    margin-top: 231px;
-    margin-left: 170px;
+.axit
+{
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    padding-top:208px;
 }
 
-.main__logo_it {
-    width: 63px;
-    height: 55px;
+.axit__left
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
 
-.main__separator {
+.axit__left__logo
+{
+width: 270px;
+height: 100px;
+display: flex;
+align-items: center;
+margin-bottom:50.88px;
+}
+
+.axit__left__image
+{
+    height: 55px;
+}
+.axit__left__separator {
     border: 1px solid white;
     width: 170px;
     margin-top: 55px;
-    margin-left: 170px;
+    
 }
 
-.main h1 {
-    width: 670px;
+.axit__left__title {
+    
     height: 168px;
     font-family: 'Raleway';
     font-style: normal;
@@ -36,11 +51,11 @@
     align-items: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 73px;
-    margin-left: 170px;
+    
+    
 }
 
-.main h5 {
+.axit__left__description {
     width: 270px;
     height: 42px;
     font-family: 'Raleway';
@@ -50,15 +65,13 @@
     line-height: 21px;
     color: #FFFFFF;
     margin-top: 42px;
-    margin-left: 170px;
     display: flex;
 }
 
-.main__button {
+.axit__left__button {
     width: 270px;
     height: 58px;
     margin-top: 42px;
-    margin-left: 170px;
     box-sizing: border-box;
     font-family: 'Open Sans';
     font-style: normal;
@@ -73,29 +86,27 @@
     border: 2px solid #FFFFFF;
     cursor: pointer;
     display: flex;
-}
-.line {
-    width: 370px;
-    height: 0px;
-    border: 1px solid #BDBDBD;
-    margin-left: 50px;
-    margin-bottom: 33px;
+    background-color: rgba(28,28,28,0);
 }
 
-.main__reg-form {
+.line {
+    width: 370px;
+    height: 2px;
+    border-top: 1px solid #BDBDBD;
+    margin-left: 50px;
+    margin-bottom: 33px;
     
-    width: 470px;
+}
+
+.axit__right {
+    display: flex;
     height: 450px;
-    margin-left: 1100px;
-    margin-top: -550px;
     background: #FFFFFF;
     border-radius: 10px;
 }
 
-.main__reg-form h4 {
-    width: 367px;
+.axit__right__title {
     height: 90px;
-    padding-left: 53px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
@@ -108,7 +119,7 @@
     color: #333333;
 }
 
-.main__reg-form_input {
+.axit__right__input {
     width: 370px;
     height: 19px;
     font-family: 'Open Sans';
@@ -121,12 +132,13 @@
     color: #BDBDBD;
     margin-bottom: 16px;
     border: none;
+    outline: none;
     margin-left: 50px;
     margin-top: 45px;
 }
 
 
-.main__reg-form_button {
+.axit__right__button {
     width: 470px;
     height: 60px;
     background: #EC7979;
@@ -142,24 +154,27 @@
     justify-content: center;
     color: #FFFFFF;
     cursor: pointer;
+    border:none;
 }
-
+.social__background
+{
+    width: 100%;
+}
 .social {
-    width: 1170px;
+    max-width: 1170px;
     height: 140px;
     background: #F8EFEF;
     display: flex; 
     margin:0 auto;
-    padding-bottom: 109px;
 }
 
 .social__text {
-    width: 470px;
+    
     height: 120px;
 }
 
 .social__text h4 {
-    width: 470px;
+    
     height: 60px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -175,6 +190,7 @@
 }
 
 .social__text h5 {
+    
     height: 21px;
     font-family: 'Raleway';
     font-style: normal;

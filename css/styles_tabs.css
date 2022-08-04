@@ -1,9 +1,9 @@
 .tabs {
-    width: 1170px;
+    max-width: 1170px;
     height: 40px;
     display: flex;
     margin: 0 auto;
-    
+    padding-top:109px;
 }
 
 .tabs__uppertab {
@@ -36,7 +36,7 @@
 }
 
 .tabs__content {
-    width: 1168px;
+    max-width: 1168px;
     height: 500px;
     border: 1px solid #C6CBCD;
     border-top: none;
@@ -60,22 +60,23 @@
     cursor: pointer;
     color: #FFFFFF;
     margin-top: 27px;
+    border: none;
 }
 
 .tabs__picture {
-    width: 470px;
+   
     height: 500px;
-    
 }
+
 .tabs__text {
-    width: 570px;
+    
     height: 361px;
     margin-left: 100px;
    margin-right: 30px;
 }
 
 .tabs__text h3 {
-    width: 570px;
+    
     height: 124px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -90,7 +91,7 @@
 }
 
 .tabs__text h5 {
-    width: 570px;
+   
     height: 210px;
     font-family: 'Raleway';
     font-style: normal;

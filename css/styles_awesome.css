@@ -1,6 +1,6 @@
 .awesome {
     padding-top: 50px;
-    width: 1170px;
+    max-width: 1170px;
     height: 665px;
     margin:0 auto
 }
@@ -42,4 +42,17 @@
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+}
+@media only screen and (max-width:900px)
+{
+    .awesome {
+        padding-top: 50px;
+        max-width: 288px;
+        height: 1199px;
+        margin:0 auto
+    }
+    .awesome__about
+    {
+        flex-direction: column;
+    }
 }

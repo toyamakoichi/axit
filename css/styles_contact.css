@@ -1,5 +1,5 @@
 .contact {
-    width: 1170px;
+    max-width: 1170px;
     height: 622px;
     margin: 0 auto;
     margin-bottom:50px;
@@ -25,6 +25,7 @@
     color: #BDBDBD;
     margin-bottom: 16px;
     border: none;
+    outline: none;
 }
 .contact__space
 {
@@ -60,6 +61,6 @@
     line-height: 19px;
     display: flex;
     color: #BDBDBD;
-   
+    outline: none;
     border: none;
 }
