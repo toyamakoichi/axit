@@ -1,8 +1,8 @@
 .awesome {
-    padding-top: 50px;
     max-width: 1170px;
     height: 665px;
-    margin:0 auto
+    margin: 0 auto;
+    padding: 50px 15px 0 15px;
 }
 
 .text {
@@ -15,9 +15,9 @@
 }
 
 .awesome__about_tab {
-    width: 463px;
+
     text-align: center;
-    
+
 }
 
 .awesome__about_tab h4 {
@@ -43,16 +43,54 @@
     line-height: 21px;
     color: #000000;
 }
-@media only screen and (max-width:900px)
-{
+
+@media only screen and (max-width:1200px) {
     .awesome {
         padding-top: 50px;
         max-width: 288px;
         height: 1199px;
-        margin:0 auto
+        margin: 0 auto 60px auto;
     }
-    .awesome__about
-    {
+
+    .awesome__about {
         flex-direction: column;
+    }
+
+    .awesome__about_tab {
+        height: 318px;
+        text-align: center;
+
+    }
+    .awesome__about_tab img {
+width: 147px;
+height: 147px;
+    }
+    .awesome__about_tab h4 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        display: flex;
+        height: 82px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-transform: capitalize;
+        margin: 0 auto;
+        color: #000000;
+    }
+
+    .awesome__about_tab h5 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 80px;
+        color: #000000;
     }
 }

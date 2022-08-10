@@ -1,8 +1,9 @@
 .pricing {
-    padding-top: 58px;
+
     max-width: 1170px;
     height: 900px;
     margin: 0 auto;
+    padding: 59px 15px 0 15px;
 }
 
 .pricing__levels {
@@ -80,31 +81,84 @@
     color: #86878B;
 }
 
-#basic:hover
-{
-    transform: scale(1.1);
-    
-    
+.pricing h5 {
+    margin-bottom: 79px;
 }
-#optima:hover
-{
+
+#basic:hover {
     transform: scale(1.1);
-    
+    transition: 1s;
+
 }
-#pro:hover
-{
+
+#optima:hover {
     transform: scale(1.1);
-   
+    transition: 1s;
 }
-@media only screen and (max-width:900px)
-{
+
+#pro:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media only screen and (max-width:1200px) {
     .pricing {
-       max-width: 320px;
+        max-width: 290px;
         height: 1480px;
+        padding: 0 15px;
+        margin-bottom: 26px;
     }
-    
-    .pricing__levels
-    {
+
+    .pricing h5 {
+        margin-bottom: 24px;
+    }
+
+    .pricing__levels {
+        height: 0;
+    }
+
+    .pricing__tab {
+        padding-bottom: 27px;
+        width: 0;
+    }
+
+    .pricing__levels {
         flex-direction: column;
     }
+
+    .pricing__tab_name {
+        width: 288px;
+        height: 45px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+
+    .pricing__tab_price {
+        width: 288px;
+        height: 75px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+    }
+
+    .pricing__tab_text {
+        width: 288px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .pricing__tab_info {
+        width: 288px;
+        height: 36px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
 }

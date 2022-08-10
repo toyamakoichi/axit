@@ -3,23 +3,34 @@
     height: 75px;
     background-color: black;
 }
-.header
-{
-max-width: 1170px;
-margin: 0 auto;
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
+
 .header__logo {
     width: 90px;
     height: 75px;
     display: inline-block;
-    
+
 }
 
 .header__nav {
     width: 570px;
     height: 75px;
     float: right;
-    display:flex;
+    display: flex;
+}
+
+.header__nav-mobile {
+    
+    display: none;
+    width: 24px;
+    height: 18px;
+    
 }
 
 .header__nav a {
@@ -35,10 +46,26 @@ margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .header__nav a:hover {
     background: #EC7979;
     color: black;
+}
+
+@media only screen and (max-width:1200px) {
+
+    .header__nav {
+        display: none;
+
+    }
+   .header__nav-mobile{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+   }
+   
 }
