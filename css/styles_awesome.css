@@ -44,7 +44,7 @@
     color: #000000;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1205px) {
     .awesome {
         padding-top: 50px;
         max-width: 288px;
