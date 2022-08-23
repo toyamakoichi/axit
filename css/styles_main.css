@@ -8,8 +8,10 @@
 .axit {
     max-width: 1170px;
     display: flex;
-    margin: 0 auto;
-    padding: 208px 15px 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 15px;
+    padding-top: 15%;
 }
 
 .axit__left {
@@ -157,13 +159,14 @@
 
 .social__background {
     width: 100%;
+    background-color: #F8EFEF;
     
 }
 
 .social {
-    max-width: 100%;
+    width: 1170px;
     height: 140px;
-    background: white;
+    background-color: #F8EFEF;
     display: flex;
     margin: 0 auto;
 }
@@ -310,7 +313,9 @@
         
         flex-direction: column;
     }
-
+    .social__background{
+        height: 201px;
+    }
     .social__text h4 {
         margin: 0 auto;
         display: flex;
@@ -349,5 +354,6 @@
         width: 26px;
         height: 26px;
         padding-right: 0;
+        
     }
 }
